@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         //Задание 1
         System.out.println("Задание 1");
-        int [] costAmount= {17_000, 20_000, 16_000, 21_000, 20_500};
+        int[] costAmount = {17_000, 20_000, 16_000, 21_000, 20_500};
         int sum = 0;
         for (int i = 0; i < costAmount.length; i++) {
             sum = sum + costAmount[i];
@@ -25,16 +25,16 @@ public class Main {
             }
 
         }
-        System.out.println("Минимальная сумма трат за неделю составила " + maxCostAmount + " рублей");
+        System.out.println("Максимальная сумма трат за неделю составила " + maxCostAmount + " рублей");
 
         //Задание 3
         System.out.println("Задание 3");
-        double averageAmount = sum / (costAmount.length - 1);
+        double averageAmount = sum / (costAmount.length);
         System.out.println("Средняя сумма трат за месяц составила " + averageAmount + " рублей");
 
         //Задание 4
         System.out.println("Задание 4");
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
